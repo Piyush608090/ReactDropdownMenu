@@ -19,7 +19,7 @@ function App() {
     <div className="dropdown-content">
     {/* Iterate over every elemnt of Array */}
     {optionArray.map((data)=>(
-    <a onClick={()=>setAnswer(data)}>{data}</a>
+    <div onClick={()=>setAnswer(data)}>{data}</div>
     ))}
     </div>  
     </div>
